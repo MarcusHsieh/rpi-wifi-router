@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ 'Success' if 'Success' in result else 'Error' }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>{{ 'Success' if 'Success' in result else 'Error' }}</h1>
+    <p class="{{ 'success' if 'Success' in result else 'error' }}">
+        {{ result }}
+    </p>
+    <div style="text-align: center;">
+        <form action="/" method="get">
+            <button type="submit" class="button">Go Back</button>
+        </form>
+    </div>
+</body>
+</html>
