@@ -96,7 +96,7 @@ sudo nmcli connection modify "Hotspot" \
 
 
 
-## Setup WiFI Portal
+## Setup WiFi Portal
 1. Install python
 ```bash
 sudo apt install python3-flask
